@@ -3,7 +3,9 @@ import{BrowserRouter as Router,Route,Routes} from "react-router-dom"
 import Navbar from './navbar/Navbar'
 import Home from './DummyComp/Home'
 import About from './DummyComp/About'
-import Contact from './DummyComp/Contact'
+import Contact from '/DummyComp/Contact'
+// import Contact from './DummyComp/Contact'
+
 let App = ()=>{
   return(
     <div>
